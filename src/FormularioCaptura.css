@@ -1,0 +1,57 @@
+.formulario-captura-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: right; /* Alinea todos los elementos a la derecha */
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinea los elementos hijos a la derecha */
+  }
+  
+  .campo {
+    margin-bottom: 20px;
+    width: 100%; /* Establece el ancho del campo de entrada al 100% */
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    width: 100%; /* Establece el ancho del texto al 100% */
+    display: block; /* Para asegurar que cada etiqueta tenga su propia línea */
+    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor */
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Establece el ancho del campo de entrada, ajustado para el relleno y el borde */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: auto; /* Empuja el botón hacia la derecha */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
